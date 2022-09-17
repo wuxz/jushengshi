@@ -1,0 +1,218 @@
+body{
+	background: url(../images/login.png) no-repeat;
+	background-size: 1440px 780px;
+	background-color:#f1f1f1;
+}
+input{
+	color: #333;
+}
+::-webkit-input-placeholder{/* webkit browsers*/
+	color:#b6b6b6;
+}
+:-moz-placeholder{/*mozilla firefox 4 to 18*/
+	color:#b6b6b6;
+}
+::-moz-placeholder{/*mozilla firefox 19+ */
+	color:#b6b6b6;
+}
+:-ms-input-placeholder{/* ie 10+ */
+	color:#b6b6b6;
+}
+.warning{
+	font-size: 12px;
+	color:#f00;
+	height: 20px;
+}
+#loginForm{
+	width: 360px;
+	text-align: center;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -180px;
+    margin-top: -250px;
+}
+.userBox,.passwdBox{
+	border: 1px solid #aeaeae;
+	width: 360px;
+	height: 60px;
+	position:relative;
+	background:#fff;
+	margin-left: auto;
+	margin-right: auto;
+}
+.userBox{
+	border-bottom: 1px solid #dedede;
+}
+.passwdBox{
+	border-top: 0;
+}
+.userBox input,.passwdBox input{
+	border: 0;
+	background:#fff;
+	height: 100%;
+	width: 70%;
+	padding-left:20px ;
+	outline: none;
+}
+.homeIcon{
+	display: block;
+	width: 25px;
+	height: 24px;
+	background: url(../images/loginIcon.png);
+	position: absolute;
+	top: 17px;
+	left: 20px;
+}
+.pwdIcon{
+	background-position:51px 0;
+}
+.submitBox{
+	padding-top: 30px;
+	text-align: center;	
+}
+.submitBox input{
+	width: 360px;
+	height: 50px;
+	cursor:pointer;
+	outline:none;
+	background:#25bfc1;
+	border:0;
+	color:#fff;
+	font-size: 16px;
+}
+.submitBox input:hover{
+	background:#40ced0;
+}
+.btn-s-cont{
+	display: block;
+	margin: 10px auto;
+	width: 360px;
+	font-size:14px;
+	color: #25bfc1;
+}
+.btn-s-cont span:hover{
+	text-decoration:underline;
+}
+.registerBtn{
+	float: left;
+	cursor:pointer;
+}
+.forgetPwdBtn{
+	float: right;
+	cursor:pointer;	
+}
+.meng{
+	width: 100%;
+	height: 100%;
+	position:fixed;
+	top: 0;
+	left: 0;
+	background:rgba(145,145,145,.5);
+	display: table-cell;
+	vertical-align: middle;
+	display:none;
+	z-index: 9999;
+}
+.seting-form{
+	background:#fff;
+	width: 660px;
+	max-height:600px;
+	position:absolute;
+	left: 50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	text-align: center;
+	padding-bottom: 80px;
+}
+.seting-form > h3{
+	height: 60px;
+    background: #f5f5f5;
+    line-height: 60px;
+    text-indent: 30px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 40px;
+    text-align:left;
+}
+.smscodeBtn{
+	width: 100px;
+	height: 30px;
+	cursor:pointer;
+	font-size:14px;
+	border:1px solid #25bfc1;
+	outline:none;
+	color: #25bfc1;
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	background: #fff;
+}
+.smscodeBtn:hover{
+	background:#25bfc1;
+	color: #fff;
+}
+.reset{
+	border-bottom: 1px solid #dedede;
+}
+.fogetPwd{
+	border-top: 0;
+	border-bottom: 0;
+}
+.newpwd{
+	border-top: 1px solid #dedede;
+}
+.forget-login{
+	border-bottom: 1px solid #aeaeae;
+}
+#forgetPwd{
+	display: none;
+}
+#register{
+	width: 360px;
+	text-align: center;
+	display: none;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin-left: -180px;
+	margin-top: -275px;
+}
+#register .login_logo{
+	margin-bottom: 10px;
+}
+.regCode{
+	border-top: 0;
+}
+.regPwd{
+	border-bottom: 0;
+}
+.regPwd2{
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #aeaeae;
+}
+.pwd2Icon{
+	background-position: -76px 4px;
+}
+.codeIcon{
+	background-position: 79px 2px;
+}
+.foot{
+	position:absolute;
+	bottom: 20px;
+	left: 0;
+	width: 100%;
+}
+.copyRight{
+	text-align:center;
+	color: #999;
+	font-size: 14px;
+}
+.login_logo{
+	margin-bottom: 10px;
+}

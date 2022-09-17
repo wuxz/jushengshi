@@ -1,0 +1,356 @@
+.addMember{
+	background:#fff;
+	width: 880px;
+	position:absolute;
+	left: 50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	/*display: none;*/
+	max-height: 600px;
+}
+.addMember input{
+	padding-left: 5px;
+}
+.close{
+	position:absolute;
+	top: 17px;
+	right: 18px;
+	cursor:pointer;
+}
+.memInfoForm{
+	padding-left:40px;
+	max-height: 385px;
+	overflow: auto;
+	padding-top: 1px;
+}
+.memInfoForm > div{
+	margin-bottom: 15px;
+}
+.memInfoForm label{
+	position: relative;
+}
+.notNull{
+	color: #f00;
+	position: absolute;
+	left: -10px;
+}
+.memInfoForm input,.memInfoForm select{
+	height: 30px;
+}
+.row1 > label{
+	width:30%;
+	display: block;
+	float: left;
+}
+.telLab{
+	margin-left: 5px;
+}
+.nameLab{
+	margin-left: 30px;
+}
+#memName{
+	width:140px;
+}
+#memSex{
+	width:140px;
+}
+#memTel{
+	width:200px;
+}
+.telLab{
+	float:right;
+}
+.row2 label{
+	float:left;
+	width:30%;
+}
+.jobName_mem{
+	margin-left: 30px;
+}
+.jobName_mem input{
+	width: 140px;
+}
+.row2 select{
+	width:140px;
+}
+.telStatus{
+	margin-left: -26px;
+}
+.row3  select{
+	width: 140px;
+}
+.row3  a{
+	color:#25bfc1;
+	text-decoration: underline;
+}
+.memLimt{
+	margin-left: 31px;
+}
+.isShowStaff{
+	float:right;
+	margin-right: 118px;
+}
+.memAdr{
+	margin-left: 31px;
+}
+.memAdr input{
+	width:400px;
+}
+.memIdcard{
+	margin-left: 33px;
+}
+.bankAccout input{
+	width: 280px;
+}
+.bankName{
+	margin-left: 154px;
+}
+.memIdcard input,.bankName input{
+	width: 200px;
+}
+.inGroupTime input,.outGroupTime input{
+	width: 140px;
+}
+.outGroupTime{
+	margin-left: 30px;
+}
+.liveHouse{
+	margin-left: 44px;
+}
+.liveHouse input{
+	width: 200px;
+}
+.memHouse{
+	margin-left: 32px;
+}
+.houseNum{
+	margin-left: 38px;
+}
+.housePrice{
+	margin-left: 20px;
+}
+.liveTime input{
+	width: 140px;
+}
+.outTime{
+	margin-left: 38px;
+}
+.outTime input{
+	width: 140px;
+}
+.liveDay input,.sumMoney input{
+	width: 70px;
+}
+.liveDay{
+	margin-left: 43px;
+}
+.btnDiv1{
+	margin-top: 25px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+.nextBtn{
+	outline: none;
+	color: #fff;
+	background:#25bfc1;
+	width: 180px;
+	height: 50px;
+	border: 0;
+	font-size:16px;
+}
+.nextBtn:hover{
+	background:#40ced0;
+}
+.jobName{
+	position: absolute;
+	width: 440px;
+	height: 400px;
+	top:175px;
+	left: 80px;
+	background: #fff;
+	border: 1px solid #25bfc1;
+	padding-top: 20px;
+	display: none;
+}
+.jobSection{
+	max-height: 240px;
+	overflow: auto;
+}
+.jobItem{
+	width:33.3%;
+	padding:0 10px 20px 10px ;
+	float:left;
+	position: relative;
+}
+.jobItem h5{
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	cursor: pointer;
+}
+.jobItem.on h5{
+	color: #fff;
+	background: #666;
+}
+.jobItem.off h5{
+	color: #000;
+	background: #efefef;
+}
+.selfDefineJob{
+	padding:0 20px;
+}
+.selfDefineJob input{
+	height: 40px;
+	width: 360px;
+	outline: none;
+}
+.selfDefineJob button{
+	height: 40px;
+	border: 1px solid #25bfc1;
+	color: #25bfc1;
+	/*width: 40px;*/
+	margin-left: -10px;
+	outline: none;
+}
+.save{
+	display: block;
+	margin:20px auto;
+	width: 180px;
+	height: 50px;
+	color: #fff;
+	background-color: #25bfc1;
+	outline: none;
+	border:0;
+	font-size: 16px;
+}
+.memSet{
+	width: 660px;
+	background:#fff;
+	position:absolute;
+	left: 50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	max-height: 600px;
+}
+.memSet input{
+	padding-left: 5px;
+}
+.setSection{
+	padding:0 25px;
+	max-height: 330px;
+	overflow: auto;
+}
+.memItem{
+	width:25%;
+	padding: 10px 15px;
+	float:left;
+	position: relative;
+}
+.memItem h4{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	cursor:pointer;
+}
+.memItem .memItem_close,.jobItem .memItem_close{
+	display: block;
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	width: 17px;
+	height: 17px;
+	background: url(../images/memItem_close.png);
+	cursor: pointer;
+}
+.jobItem .memItem_close{
+	top:-5px;
+}
+.memItem.on h4{
+	background:#666;
+	color:#fff;
+}
+.memItem.off h4{
+	background: #fff;
+	border:1px solid #e3e3e3;
+	color:#000;
+}
+.selfDefine{
+	margin-left: 40px;
+	margin-top: 20px;
+	height: 50px;
+}
+.selfDefine input{
+	height: 100%;
+	border:1px solid #e3e3e3;
+	padding-left: 10px;
+	outline: none;
+}
+.selfDefine button{
+	height: 100%;
+	border: 1px solid #25bfc1;
+	width: 50px;
+	outline: none;
+	margin-left: -9px;
+	background-color: #fff;
+	color: #25bfc1;
+}
+.selfDefine button:hover{
+	color: #fff;
+	background:#25bfc1;
+	border: 0;
+}
+.addGroup{
+	width: 660px;
+	background:#fff;
+	position:absolute;
+	left: 50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	max-height: 600px;
+}
+.addGroup input{
+	padding-left: 5px;
+}
+.editMember{
+	background:#fff;
+	width: 880px;
+	position:absolute;
+	left: 50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	display: none;
+	max-height: 600px;
+}
+.editMember input{
+	padding-left: 5px;
+}
+.bordercolor{
+	border:1px solid red;
+}
+#submitMemberInfo{
+	float: none;
+}
+#memberAdd{
+	width: 100%;
+}
+#memberAdd tr{
+	height: 40px;
+}

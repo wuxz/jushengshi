@@ -1,0 +1,275 @@
+.container{
+	margin-bottom: 80px;
+}
+.invitationStaff{
+	width: 100%;
+	margin-top: 50px;
+	padding:50px 40px 0 40px;
+}
+.invitationTitle{
+	position:relative;
+	color:#888;	
+}
+.invitationTitle h3{
+	font-size: 16px;
+}
+.invitationTitle .line{
+	position:absolute;
+	border-bottom:1px solid #ccc;
+	width:89%;
+	top:9px;
+	left: 120px;
+}
+.myStaffList{
+	padding-top: 30px;
+}
+.list:after{
+	clear: both;
+	content: "";
+	display:block;
+	font-size: 0;
+	zoom:1;
+	width: 0;
+}
+.listBox > div{
+	width: 100%;
+	height: 170px;
+	padding: 30px;
+	position: relative;
+}
+.listBox{
+	padding-right: 40px;
+	padding-bottom: 40px;
+	float: left;
+	width: 25%;
+}
+.tvList{
+	background:#25bfc1;
+	color:#fff;
+}
+.tvList:hover{
+	background:#36d7d9;
+}
+.staffClass{
+	font-weight: 500;
+	font-size: 14px;
+}
+.staffTitle{
+	font-weight:normal;
+	font-size:26px;
+}
+.arrowR{
+	position: absolute;
+	right: 15px;
+	bottom:15px;
+}
+.itemLink{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.createStaff{
+	background:#fff;
+	text-align: center;
+	cursor:pointer;
+}
+.createStaff > img{
+	margin-top: 13.5px;
+}
+.list > .createStaff{
+	margin-right: 0;
+}
+.createStaff:hover{
+	color: #25bfc1;
+}
+.createStaff h3{
+	font-size:16px;
+	line-height: 25px;
+}
+.archiveStaff{
+	padding:0 40px;
+}
+.archiveTitle{
+	margin-top: 10px;
+	position:relative;
+	color:#888;
+}
+.archiveTitle .line{
+	position:absolute;
+	border-bottom:1px solid #ccc;
+	width:88%;
+	top:9px;
+	left: 120px;
+}
+.archiveItem{
+	background: #fff;
+	color:#888;
+}
+.archiveItem:hover>h2{
+	color: #25bfc1;
+}
+.archiveStaffTitle{
+	color:#666;
+}
+.archiveList{
+	padding-top: 30px;
+	min-height: 230px;
+}
+.footer{
+	text-align: center;
+	color:#b6b6b6;
+	font-size: 14px;
+	padding-bottom:20px;
+}
+.meng{
+	width: 100%;
+	height: 100%;
+	position:fixed;
+	top: 0;
+	left: 0;
+	background:rgba(145,145,145,.5);
+	display: table-cell;
+	vertical-align: middle;
+	display: none;
+	z-index:500;
+}
+.creatForm{
+	background:#fff;
+	width: 660px;
+	position:absolute;
+	left: 50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	max-height:600px;
+}
+.meng > div > h3{
+	height: 60px;
+	background:#f5f5f5;
+	line-height: 60px;
+	text-indent: 2em;
+	font-size:16px;
+	font-weight:600;
+	color:#333;
+	margin-bottom: 40px;
+}
+.creatForm > div{
+	margin-bottom: 25px;
+	padding-right:70px;
+	text-align:right;
+}
+.creatForm > div > input{
+	height: 50px;
+	width:410px;
+	padding-left: 10px;
+}
+.creatForm > div > select{
+	height: 50px;
+	width: 410px;
+}
+.createStaffInfo > p{
+	color:#f00;
+	font-size:14px;
+	padding-left:180px;
+	margin-bottom: 5px;
+}
+.creatBtn{
+	background: #25bfc1;
+	color:#fff;
+	outline: none;
+	border:0;
+	width: 180px;
+	height: 50px;
+	font-size:16px;
+}
+.creatBtn:hover{
+	background:#40ced0;
+}
+#createStaffBtn{
+	display: block;
+	margin:8px auto 24px auto;	
+}
+#selectSex{
+	height: 50px;
+	padding-left: 140px;
+}
+#selectSex input{
+	width: auto;
+	height:auto;
+}
+.creatForm .btnBox{
+	margin:29px auto 10px auto;
+	text-align:center;
+}
+#prevBtn{
+	margin:40px 30px 40px 103px;
+}
+input[type="radio"]{
+	display: none;
+}
+#selectSex > span{
+	float: left;
+	margin-right: 8px;
+	line-height: 50px;
+}
+.radio{
+	width: 200px;
+	height: 50px;
+	float:left;
+	
+}
+.radio1{
+	margin-right: 10px;
+}
+.radio label{
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-align:center;
+	position:relative;
+	line-height: 50px;
+	border:1px solid #25bfc1;
+}
+.radio .femaleLabel{
+	border-color:#cfcfcf;
+}
+.radio .femaleLabel .radioIcon{
+	background:#fff;
+	border: 1px solid #cfcfcf;
+}
+.radio >label span{
+	position: absolute;
+	left: 115px;
+}
+.radio .radioIcon{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #25bfc1;
+	position:absolute;
+	top:12.5px;
+	left:80.5px;
+}
+.close{
+	position:absolute;
+	top: 17px;
+	right: 18px;
+	cursor:pointer;
+}
+.createUserInfo{
+	display: none;
+}
+@media screen and (min-width: 1439px) {
+	.listBox{
+		width: 20%;
+	}
+	.listBox > div{
+		height: 165px;
+	}
+} 

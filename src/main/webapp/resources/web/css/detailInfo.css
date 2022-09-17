@@ -1,0 +1,58 @@
+.content{
+	/*height:100%;*/
+}
+.content > div {
+	height: 88%;
+}
+.contTop{
+	height: auto;
+	font-size:14px;
+}
+.detaileInfoCont .contTop > a{
+	color:#25bfc1;
+}
+.contTable{
+	height: 100%;
+	padding-right:40px;
+}
+.descTitle{
+	padding-top:30px;
+	padding-bottom:30px;
+	color:#cacaca;
+	position: relative;
+}
+.descTitle span{
+	color:#25bfc1;
+}
+.descTitle select{
+	height: 50px;
+	width: 100px;
+	margin-right: 35px;
+}
+.sence{
+	height: 50px;
+	width: 240px;
+	outline: none;
+	padding-left: 10px;
+	margin-right: 35px; 
+}
+.contShow{
+	padding-bottom: 25px;
+	min-height: 200px;
+	line-height: 34px;	
+}
+.contShow textarea{
+	width: 100%;
+	outline: none;
+	border: none;
+	line-height: 34px;
+}
+.perBtn{
+	margin-right: 20px;
+}
+.desc > p{
+	line-height:30px;
+}
+.diff{
+	cursor:pointer;
+}

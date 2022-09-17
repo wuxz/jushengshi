@@ -1,0 +1,35 @@
+.editStatus,.addStatus,.deleteStatus{
+	position: absolute;
+	width: 17%;
+	top: 0;
+	text-align: center;
+	line-height: 58px;
+	color:#666;
+	font-size:16px;
+}
+.editStatus{
+	left: 46%;
+}
+.addStatus{
+	left: 64%;
+}
+.deleteStatus{
+	left: 82%;
+}
+.tblRows td {
+	width: 19%;
+	text-align: center;
+	padding-left: 0;
+}
+.tblRows .screenplayList {
+	width: 45%;
+	text-align: left;
+	padding-left: 28px;
+}
+.juben_history tbody tr td{
+	min-height: 60px;
+	overflow: auto;
+	word-break: break-all;
+	word-wrap : break-word; 
+	padding:10px;
+}

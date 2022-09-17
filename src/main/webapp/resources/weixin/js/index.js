@@ -1,0 +1,9 @@
+$(document).ready(function(){
+	FastClick.attach(document.body);//fastclick
+	$('.list').click(function(){
+		$('.meng').show();
+	});
+	$('.close').click(function(){
+		$(this).parents('.meng').hide();
+	});
+});

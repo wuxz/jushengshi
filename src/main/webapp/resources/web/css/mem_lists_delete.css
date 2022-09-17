@@ -1,0 +1,19 @@
+.breadcrumb{
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+.content{
+	padding-bottom: 150px;
+}
+.breadcrumb a{
+	color:#25bfc1;
+}
+.breadcrumb span{
+	color:#999;
+}
+.showMemberList tr td{
+	height: 60px;
+	border:1px solid #f1f1f1;
+	border-left: 0;
+	border-right: 0;
+}

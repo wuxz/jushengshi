@@ -1,0 +1,29 @@
+.hotel-tbl-name{
+	height: 60px;
+    border-top: 1px solid #e3e3e3;
+    line-height: 60px;
+    font-size: 18px;
+    color: #333;
+    text-indent: 16px;
+}
+.del_hotel_info{
+	color: #25bfc1;
+	cursor: pointer;
+}
+#priceTotal{
+	color: #f00;
+}
+#hotelName{
+	width: 300px;
+}
+#fm1{
+	overflow:hidden;
+}
+#fm1 table td input{
+	border: 0;
+	outline:none;
+	width: 100%;
+	height: 100%;
+	max-width: 80px;
+	text-align: center;
+}

@@ -1,0 +1,115 @@
+html{
+	font-size: 12px;
+}
+body{
+	background:#fff;
+	font-family:'Microsoft YaHei', Arial, Helvetica, sans-serif;	
+}
+.tab{
+	padding:1rem 2rem;
+	border-bottom: 7px solid #f2f2f2;
+}
+.tab button{
+	width: 50%;
+	height: 4rem;
+	outline: none;
+	font-size: 1.4rem;
+	line-height: 4rem;
+	float: left;
+	background:#fff;
+	color: #6e6e6e;
+	border: 1px solid #25bfc1;
+}
+.tab button.active{
+	background:#25bfc1;
+	color: #fff;
+	border: 0;
+}
+.header{
+	padding:0 2rem;
+	border-bottom: 7px solid #f2f2f2;
+}
+.row{
+	/* height: 5rem; */
+	border-bottom: 1px dotted #838a8d;
+	line-height: 5rem;
+	padding:0 10px;
+}
+.titl{
+	font-size: 1.2rem;
+	color: #838a8d;
+}
+.sh-status{
+	font-size: 1.3rem;
+	color: #f00;
+}
+.desc{
+	font-size: 1.1rem;
+	color: #a5a4a4;
+	line-height: 20px;
+}
+.col6{
+	float: left;
+	width: 50%;
+}
+.no-b-b{
+	border-bottom: 0;
+}
+.cont{
+	padding:2.3rem 2rem;
+}
+.btnDiv{
+	text-align: center;
+	position: fixed;
+	bottom: 10px;
+	width: 100%;
+}
+.btnDiv button{
+	width: 40%;
+	height: 40px;
+	outline: none;
+	border: 0;
+	line-height: 40px;
+	color: #fff;
+	background: #25bfc1;
+	font-size: 1.4rem;
+}
+.btn-pre{
+	margin-right: 20px;
+}
+.play-text{
+	line-height: 2rem;
+	font-size: 1.3rem;
+	color: #333333;
+	position:relative;
+}
+.status img{
+	height: 2rem;
+}
+.userName{
+	position:fixed;
+	z-index: -1;
+	top: 55%;
+	left: 0%;
+	text-align: center;
+	overflow:auto;
+	line-height: 5rem;
+	color: #bcbbbb;
+	opacity:.5;
+	font-size: 5rem;
+	transform:skew(-30deg,0deg);
+	-webkit-transform:skew(-30deg,0deg);
+	-moz-transform:skew(-30deg,0deg);
+	-o-transform:skew(-30deg,0deg);
+	-ms-transform:skew(-30deg,0deg);
+}
+@media screen and (min-width: 375px){
+	html{
+		font-size: 14px;
+	}
+}
+@media screen and (min-width: 414px){
+	html{
+		font-size: 16px;
+	}
+} 

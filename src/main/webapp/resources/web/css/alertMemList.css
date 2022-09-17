@@ -1,0 +1,182 @@
+.select-appr{
+	width: 680px;
+	max-height:600px;
+	background:#fff;
+	position:absolute;
+	left: 50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+}
+.appr-section{
+	padding:0 40px;
+}
+.filtTop .searchBox{
+	float:right;
+	width: 60%;
+}
+.filtCont{
+	padding:30px 0;
+	display: none;
+}
+.filtTop {
+	padding-bottom:30px;
+}
+.filtCont span {
+    padding: 0 3.2px;
+    cursor: pointer;
+}
+.filtTable{
+	max-height: 264px;
+    overflow: auto;
+    min-height:175px;
+}
+.filtTable table {
+    width: 100%;  
+    border-collapse:collapse;
+}
+.filtTable table td {
+    border: 1px solid #e3e3e3;
+    border-left: 0;
+    border-right: 0;
+    height: 60px;
+    vertical-align: middle;
+    width: 33%;
+}
+.filtTable table td input{
+	margin-right: 5px;
+}
+.btnBox{
+	margin-bottom: 40px;
+	margin-top: 40px;
+	text-align:center;
+}
+.btn-t-5{
+	background:#25bfc1;
+	color: #fff;
+	width: 180px;
+	height: 50px;
+	outline: none;
+	border: 0;
+	margin-right: 30px;
+	font-size: 16px;
+	font-family: 'microsoft yahei';
+}
+.btn-t-5:hover{
+	background:#40ced0;
+}
+.btn-f-5{
+	background: #fff;
+	color: #25bfc1;
+	border: 1px solid #25bfc1;
+	width: 180px;
+	height: 50px;
+	outline: none;
+	font-size: 16px;
+	margin-right: 30px;
+	font-family: 'microsoft yahei';
+}
+.btn-f-5:hover{
+	background:#25bfc1;
+	color:#fff;
+}
+.contTop .btn-warn{
+	background: #fff;
+	color: #f00;
+	border: 1px solid #f00;
+}
+
+
+.pushScreen{
+	width: 880px;
+	max-height:600px;
+	background:#fff;
+	position:absolute;
+	left: 50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+}
+.filterLeft,.filterRight{
+	float:left;
+}
+.filterLeft{
+	padding:0 15px 0 40px;
+	width:22%;
+	max-height: 360px;
+	overflow: auto;
+}
+.filterRight{
+	padding:0 40px 0 30px;
+	width:78%;
+}
+.filterLeft .checkDiv label:hover{
+	color: #25bfc1;
+}
+.filterRight .filtTable td label:hover > span{
+	color: #25bfc1;
+}
+.checkDiv{
+	margin-bottom: 40px;
+}
+.toggleFilt{
+	position:relative;
+	padding-left:21px;
+	margin-bottom: 30px;
+	display:block;
+	color:#000;
+}
+.toggleFilt i{
+	width: 16px;
+	height: 13px;
+	display: block;
+	background:url(../images/arrow.png);
+	position: absolute;
+	left: 0;
+	top: 4px;
+}
+.checkboxUl li{
+	margin-bottom: 30px;
+}
+.btnDiv{
+	padding:40px;
+}
+.btnDiv button{
+	float:left;
+	height: 50px;
+	width: 180px;
+	outline: none;
+	border:0;
+	font-size: 16px;
+	font-family: 'Microsoft YaHei';
+}
+.btnDiv .btn-cancel{
+	border:1px dashed #25bfc1;
+	background:#fff;
+	color:#25bfc1;
+	margin-right: 30px;
+}
+.btnDiv .btn-cancel:hover{
+	background:#25bfc1;
+	color:#fff;
+}
+.btnDiv .btn-sure{
+	background:#25bfc1;
+	color:#fff;
+}
+.btnDiv .btn-sure:hover{
+	background: #40ced0;
+}
+.checkboxUl{
+	padding-left: 20px;
+}
+input[type="checkbox"]{
+	position: relative;
+	top: -3px;
+}

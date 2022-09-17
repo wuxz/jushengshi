@@ -1,0 +1,241 @@
+html,body{
+	background:#f1f1f1;
+	height:100%;
+	font-family:'Microsoft YaHei', sans-serif !important;
+}
+a{
+	outline: none;/*去除a标签点击后虚边*/
+}
+.header{
+	width: 100%;
+	height: 50px;
+	margin:0 auto;
+	background:#333;
+	position:fixed;
+	color:#fff;
+	text-align: center;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.logoBox{
+	position:absolute;
+	left: 0;
+	top: 0;
+	height: 50px;
+	width: 150px;
+	overflow: hidden;
+	text-align: left;
+}
+.logoBox > span{
+	line-height: 42px;
+	margin-left:15px;
+	font-size: 20px;
+}
+.logo{
+	display:block;
+	position: absolute;
+	top: 9px;
+	left: 40px;
+}
+.title{
+	line-height: 50px;
+	font-size: 20px;
+}
+.headerRight{
+	position: absolute;
+	top: 0;
+	right: 0;
+	/*width: 250px;*/
+	height: 100%;
+	text-align: left;
+}
+.headerRight > a{
+	line-height: 50px;
+	color: #fff;
+	font-size: 16px;
+	margin-right: 40px;
+}
+.icon{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background:url(../images/sprite.png);
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.home_icon{
+	width: 21px;
+	height: 24px;
+	display: block;
+	background:url(../images/home.png);
+	position: absolute;
+	left: 20px;
+	top: 0px;
+}
+.home_icon:hover{
+	background-position:24px 0;
+}
+.head_home_div{
+	height: 24px;
+	position: absolute;
+	left: 93px;
+	top: 12.5px;
+	border-left:2px solid #5a5a5a;
+}
+.feedback{
+	margin-right:30px;
+}
+.feedback:hover,.setting:hover,.exit:hover{
+	color:#25bfc1;
+}
+.feedback:hover>.icon{
+	background-position:-312px 0px;
+}
+.setting:hover>.icon{
+	background-position:-364px 0px;
+}
+.exit:hover>.icon{
+	background-position:-416px 0px;
+}
+.feedback .icon{
+	background-position:-338px 0px;
+}
+.setting{
+	margin-right: 30px;
+}
+.setting .icon{
+	background-position:-390px 0px;
+}
+.exit .icon{
+	background-position:-442px 0px;
+}
+.feedbackForm{
+	width: 500px;
+	height: 350px;
+	border: 1px solid #999;
+	padding:10px;
+	margin:100px auto;
+	text-align: center;
+}
+.feedbackForm textarea{
+	resize:none;
+	font-size: 16px;
+	color: #666;
+	font-family: 'Microsoft YaHei';
+	width:100%;
+	margin:5px 0;
+	padding:10px;
+	border:1px solid #999999;
+	height: 250px;
+	outline: none;
+}
+.feedbackSubmitBtn{
+	width: 100px;
+	height: 35px;
+	background: #25bfc1;
+	font-size: 16px;
+	color: #fff;
+	border:0;
+	outline:none;
+	margin-top: 15px;
+}
+.feedbackSubmitBtn:hover{
+	background:#40ced0;
+}
+.settingList{
+	position: absolute;
+	top:50px;
+	right: 126px;
+	height: 90px;
+	width: 100px;
+	display:none;
+	background:#fff;
+	border:1px solid #25bfc1;
+	overflow: hidden;
+}
+.settingList li{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	font-size:14px;
+	color:#333;
+
+}
+.settingList .active{
+	background:#25bfc1;
+	color:#fff;
+}
+
+textarea{
+	resize: none;
+}
+
+.stInL{
+	height: 70px;
+	vertical-align: baseline;
+	text-align:right;
+}
+.stInL > input{
+	border:1px solid #999;
+	padding:10px 0;
+	outline:none;
+	padding-left: 10px;
+}
+.stInL > select{
+	border:1px solid #999;
+	padding:10px 0;
+}
+.bLine{
+	float: right;
+	width: 390px;
+	border: 0;
+	/*outline: none;*/
+	border-bottom: 1px solid #999;
+	text-align:left;
+	margin-left: 30px;
+	padding-bottom: 10px;
+}
+.btnPar{
+	text-align: center;
+}
+.btnPar button{
+	width: 180px;
+	height: 50px;
+	background:#25bfc1;
+	color: #fff;
+	font-size: 16px;
+	outline: none;
+	border: 0;
+	margin:0 15px;
+}
+.finished{
+	position: absolute;
+	right: 90px;
+	top: 230px;
+}
+.close{
+	position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+}
+#delSta:hover,#recoverSta:hover,#stafSave:hover{
+	background: #40ced0;
+}
+@media screen and (max-width:760px) {
+	.feedbackForm{
+		width: 100%;
+		height: 70%;
+		border: 0;
+		margin:auto;
+	}
+	#content{
+		height: 80%;
+		display: block;
+	}
+	.feedbackSubmitBtn{
+		-webkit-appearance:none;
+		outline:none;
+	}
+}
